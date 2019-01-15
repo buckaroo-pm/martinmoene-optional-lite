@@ -3,9 +3,6 @@ cxx_binary(
   srcs = [
     '01-to_int.cpp',
   ],
-  compiler_flags = [
-    '-std=c++11',
-  ],
   deps = [
     '//:optional-lite',
   ],
@@ -16,9 +13,6 @@ cxx_binary(
   srcs = [
     '02-nodefltctor.cpp',
   ],
-  compiler_flags = [
-    '-std=c++11',
-  ],
   deps = [
     '//:optional-lite',
   ],
@@ -28,9 +22,6 @@ cxx_binary(
   name = '04-any-optional-variant',
   srcs = [
     '04-any-optional-variant.cpp',
-  ],
-  compiler_flags = [
-    '-std=c++11',
   ],
   deps = [
     '//:optional-lite',

@@ -7,9 +7,6 @@ cxx_binary(
   srcs = glob([
     '*.cpp',
   ]),
-  compiler_flags = [
-    '-std=c++11',
-  ],
   deps = [
     '//:optional-lite',
   ],
